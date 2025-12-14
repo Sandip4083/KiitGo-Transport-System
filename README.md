@@ -1,78 +1,140 @@
-# Getting Started with Create React App
+# KIITGO – Smart Bus Service Management System 🚍
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+KIITGO is a full-stack web application designed to manage and streamline bus services within KIIT University. The platform provides features for bus route management, student complaints, contact support, and admin operations through a modern web interface.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔧 Tech Stack
 
-### `npm start`
+### Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React (Create React App)
+- React Router
+- Font Awesome
+- Emotion (CSS-in-JS)
+- Axios
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Backend
 
-### `npm test`
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- JWT Authentication
+- bcryptjs (Password hashing)
+- Nodemailer (Email services)
+- CORS & dotenv
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ✨ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🚌 _Bus Route Management_
+- 🧑‍🎓 _Student Complaint System_
+- 📞 _Contact & Support Module_
+- 🔐 _Authentication & Authorization (JWT)_
+- 👨‍💼 _Admin Management_
+- 📊 _Excel-based Data Handling_
+- 📬 _Email Notifications_
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Project Structure
 
-### `npm run eject`
+KIITGO_clean/
+│
+├── kiitgo-backend/ # Backend (Node + Express + MongoDB)
+│ ├── db.js
+│ ├── busRoute.js
+│ ├── complaint.js
+│ ├── contact.js
+│ ├── addAdmin.js
+│ └── dummy_bus_routes.json
+│
+├── src/ # Frontend (React)
+├── public/
+├── package.json
+└── README.md
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Node.js (v18+ recommended)
+- MongoDB (local or Atlas)
+- Git
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1️⃣ Clone the Repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
+git clone https://github.com/your-username/KIITGO-Bus-Service.git
+cd KIITGO-Bus-Service
 
-### Code Splitting
+### 2️⃣ Frontend Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
+npm install
+npm start
 
-### Analyzing the Bundle Size
+Runs the app at:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+http://localhost:3000
 
-### Making a Progressive Web App
+### 3️⃣ Backend Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+bash
+cd kiitgo-backend
+npm install
+node index.js
 
-### Advanced Configuration
+Make sure to create a .env file inside kiitgo-backend:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+EMAIL_USER=your_email
+EMAIL_PASS=your_email_password
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🔐 Authentication Flow
 
-### `npm run build` fails to minify
+- JWT-based authentication
+- Passwords securely hashed using bcryptjs
+- Admin-only protected routes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
 
-##admin login
-admin:rohit@kiit.ac.in
-password:rohit123
-http://localhost:3000/admin/login
+## 📈 Future Improvements
 
+- Role-based access control
+- Live bus tracking
+- Mobile app integration
+- Dashboard analytics
+- Deployment with Docker
 
+---
 
+## 🤝 Contribution
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the ISC License.
+
+---
+
+## 👨‍💻 Author
+
+Developed by _KIITGO Team_
+Built for academic and institutional use at KIIT University.
