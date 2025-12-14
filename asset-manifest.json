@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/KiitGo-Transport-System/static/css/main.2f2998c2.css",
-    "main.js": "/KiitGo-Transport-System/static/js/main.99a45582.js",
+    "main.css": "/KiitGo-Transport-System/static/css/main.df7d7f7f.css",
+    "main.js": "/KiitGo-Transport-System/static/js/main.d955cab0.js",
     "static/js/453.edd0b783.chunk.js": "/KiitGo-Transport-System/static/js/453.edd0b783.chunk.js",
     "static/media/Loginbackground1.png": "/KiitGo-Transport-System/static/media/Loginbackground1.d696a8b6266dedc2c627.png",
     "static/media/KIITGO_logo.png": "/KiitGo-Transport-System/static/media/KIITGO_logo.df0a351f3e9efa584640.png",
     "index.html": "/KiitGo-Transport-System/index.html",
-    "main.2f2998c2.css.map": "/KiitGo-Transport-System/static/css/main.2f2998c2.css.map",
-    "main.99a45582.js.map": "/KiitGo-Transport-System/static/js/main.99a45582.js.map",
+    "main.df7d7f7f.css.map": "/KiitGo-Transport-System/static/css/main.df7d7f7f.css.map",
+    "main.d955cab0.js.map": "/KiitGo-Transport-System/static/js/main.d955cab0.js.map",
     "453.edd0b783.chunk.js.map": "/KiitGo-Transport-System/static/js/453.edd0b783.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f2998c2.css",
-    "static/js/main.99a45582.js"
+    "static/css/main.df7d7f7f.css",
+    "static/js/main.d955cab0.js"
   ]
 }
