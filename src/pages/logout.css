@@ -1,0 +1,41 @@
+.logout-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.6);
+}
+.logout-card {
+  background: #fff;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.logout-card h2 {
+  margin-bottom: .5rem;
+  font-size: 1.8rem;
+}
+.logout-card p {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+.logout-actions .btn {
+  margin: 0 .5rem;
+  padding: .6rem 1.4rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background .2s;
+}
+.btn-yes {
+  background: #e74c3c;
+  color: #fff;
+}
+.btn-yes:hover { background: #c0392b; }
+.btn-no {
+  background: #ccc;
+  color: #333;
+}
+.btn-no:hover { background: #aaa; }

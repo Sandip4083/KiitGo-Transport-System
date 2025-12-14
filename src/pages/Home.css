@@ -1,0 +1,19 @@
+.moving-text {
+    display: inline-block;
+    animation: moveText 8s linear infinite;
+    /* lagatar chalti rahegi */
+    white-space: nowrap;
+    /* text ek line me rahega */
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(100%);
+        /* left se start */
+    }
+
+    100% {
+        transform: translateX(-100%);
+        /* right ki taraf chali jayegi */
+    }
+}

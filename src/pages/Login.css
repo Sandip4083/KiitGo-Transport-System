@@ -1,0 +1,190 @@
+/* ===== Global Reset & Background Cover ===== */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Segoe UI", Arial, sans-serif;
+  overflow-x: hidden;   /* 🚫 Prevent unwanted horizontal scroll */
+}
+
+body {
+  background-image: url("./assets/login-bg.jpg"); /* <-- your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Login Page Container ===== */
+.loginpage {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  backdrop-filter: blur(3px); /* subtle glass effect */
+}
+
+/* ===== Login Card ===== */
+.login-form {
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  max-width: 320px;          /* ✅ default mobile-first size */
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+}
+
+/* 📱 Very small phones (<360px) */
+@media (max-width: 360px) {
+  .login-form {
+    max-width: 90%;          /* ✅ shrink smoothly */
+    padding: 1rem;           /* ✅ smaller padding */
+  }
+  .input-box input,
+  .btn {
+    padding: 0.7rem;         /* ✅ reduce input & button padding */
+    font-size: 0.9rem;
+  }
+  .login-heading {
+    font-size: 1.4rem;
+  }
+}
+
+/* 📱 Tablets (≥768px) */
+@media (min-width: 768px) {
+  .login-form {
+    max-width: 360px;        /* ✅ bigger than mobile */
+    padding: 2rem;
+  }
+  .login-heading {
+    font-size: 1.9rem;
+  }
+}
+
+/* 💻 Desktops (≥1024px) */
+@media (min-width: 1024px) {
+  .login-form {
+    max-width: 380px;        /* ✅ final desktop size */
+  }
+}
+
+/* Logo + Heading */
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.login-logo {
+  width: 60px;
+  height: auto;
+}
+
+.login-heading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Inputs */
+.input-box {
+  position: relative;
+  margin-bottom: 1.2rem;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 0.8rem 2.5rem 0.8rem 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+.input-box input:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+.icon {
+  position: absolute;
+  right: 0.8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  cursor: pointer;
+}
+
+/* Remember & Forgot */
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.remember-forgot a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 0.9rem;
+  background: #3b82f6;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.25s;
+}
+.btn:hover {
+  background: #2563eb;
+}
+
+/* Register link */
+.register-link {
+  text-align: center;
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+}
+.register-link a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+/* Error message */
+.error-message {
+  color: #ff4d4f;
+  background: #fff2f0;
+  border: 1px solid #ffccc7;
+  padding: 0.7rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

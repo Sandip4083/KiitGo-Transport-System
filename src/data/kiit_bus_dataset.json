@@ -1,0 +1,1178 @@
+[
+  {
+    "Bus_ID": 1,
+    "Route_Name": "King's Palace KP-1 \u2194 Campus-Sabarmati Route",
+    "Stop_Name": "King's Palace KP-1",
+    "Stop_Order": 1,
+    "Time": "07:24 AM"
+  },
+  {
+    "Bus_ID": 1,
+    "Route_Name": "King's Palace KP-1 \u2194 Campus-Sabarmati Route",
+    "Stop_Name": "Campus-Sabarmati Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:34 AM"
+  },
+  {
+    "Bus_ID": 1,
+    "Route_Name": "King's Palace KP-1 \u2194 Campus-Sabarmati Route",
+    "Stop_Name": "Campus-Sabarmati Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:44 AM"
+  },
+  {
+    "Bus_ID": 1,
+    "Route_Name": "King's Palace KP-1 \u2194 Campus-Sabarmati Route",
+    "Stop_Name": "Campus-Sabarmati Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:54 AM"
+  },
+  {
+    "Bus_ID": 2,
+    "Route_Name": "King's Palace KP-2 \u2194 Campus-Subarnarekha Route",
+    "Stop_Name": "King's Palace KP-2",
+    "Stop_Order": 1,
+    "Time": "07:36 AM"
+  },
+  {
+    "Bus_ID": 2,
+    "Route_Name": "King's Palace KP-2 \u2194 Campus-Subarnarekha Route",
+    "Stop_Name": "Campus-Subarnarekha Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:46 AM"
+  },
+  {
+    "Bus_ID": 2,
+    "Route_Name": "King's Palace KP-2 \u2194 Campus-Subarnarekha Route",
+    "Stop_Name": "Campus-Subarnarekha Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:56 AM"
+  },
+  {
+    "Bus_ID": 2,
+    "Route_Name": "King's Palace KP-2 \u2194 Campus-Subarnarekha Route",
+    "Stop_Name": "Campus-Subarnarekha Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:06 AM"
+  },
+  {
+    "Bus_ID": 3,
+    "Route_Name": "King's Palace KP-3 \u2194 Campus-Tapti Route",
+    "Stop_Name": "King's Palace KP-3",
+    "Stop_Order": 1,
+    "Time": "07:09 AM"
+  },
+  {
+    "Bus_ID": 3,
+    "Route_Name": "King's Palace KP-3 \u2194 Campus-Tapti Route",
+    "Stop_Name": "Campus-Tapti Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:19 AM"
+  },
+  {
+    "Bus_ID": 3,
+    "Route_Name": "King's Palace KP-3 \u2194 Campus-Tapti Route",
+    "Stop_Name": "Campus-Tapti Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:29 AM"
+  },
+  {
+    "Bus_ID": 3,
+    "Route_Name": "King's Palace KP-3 \u2194 Campus-Tapti Route",
+    "Stop_Name": "Campus-Tapti Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:39 AM"
+  },
+  {
+    "Bus_ID": 4,
+    "Route_Name": "King's Palace KP-4 \u2194 Campus-Chilika Route",
+    "Stop_Name": "King's Palace KP-4",
+    "Stop_Order": 1,
+    "Time": "07:56 AM"
+  },
+  {
+    "Bus_ID": 4,
+    "Route_Name": "King's Palace KP-4 \u2194 Campus-Chilika Route",
+    "Stop_Name": "Campus-Chilika Main Gate",
+    "Stop_Order": 2,
+    "Time": "08:06 AM"
+  },
+  {
+    "Bus_ID": 4,
+    "Route_Name": "King's Palace KP-4 \u2194 Campus-Chilika Route",
+    "Stop_Name": "Campus-Chilika Academic Block",
+    "Stop_Order": 3,
+    "Time": "08:16 AM"
+  },
+  {
+    "Bus_ID": 4,
+    "Route_Name": "King's Palace KP-4 \u2194 Campus-Chilika Route",
+    "Stop_Name": "Campus-Chilika Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:26 AM"
+  },
+  {
+    "Bus_ID": 5,
+    "Route_Name": "King's Palace KP-5 \u2194 Campus-Chilika Route",
+    "Stop_Name": "King's Palace KP-5",
+    "Stop_Order": 1,
+    "Time": "07:42 AM"
+  },
+  {
+    "Bus_ID": 5,
+    "Route_Name": "King's Palace KP-5 \u2194 Campus-Chilika Route",
+    "Stop_Name": "Campus-Chilika Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:52 AM"
+  },
+  {
+    "Bus_ID": 5,
+    "Route_Name": "King's Palace KP-5 \u2194 Campus-Chilika Route",
+    "Stop_Name": "Campus-Chilika Academic Block",
+    "Stop_Order": 3,
+    "Time": "08:02 AM"
+  },
+  {
+    "Bus_ID": 5,
+    "Route_Name": "King's Palace KP-5 \u2194 Campus-Chilika Route",
+    "Stop_Name": "Campus-Chilika Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:12 AM"
+  },
+  {
+    "Bus_ID": 6,
+    "Route_Name": "King's Palace KP-6 \u2194 Campus-Kharasrota Route",
+    "Stop_Name": "King's Palace KP-6",
+    "Stop_Order": 1,
+    "Time": "07:15 AM"
+  },
+  {
+    "Bus_ID": 6,
+    "Route_Name": "King's Palace KP-6 \u2194 Campus-Kharasrota Route",
+    "Stop_Name": "Campus-Kharasrota Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:25 AM"
+  },
+  {
+    "Bus_ID": 6,
+    "Route_Name": "King's Palace KP-6 \u2194 Campus-Kharasrota Route",
+    "Stop_Name": "Campus-Kharasrota Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:35 AM"
+  },
+  {
+    "Bus_ID": 6,
+    "Route_Name": "King's Palace KP-6 \u2194 Campus-Kharasrota Route",
+    "Stop_Name": "Campus-Kharasrota Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:45 AM"
+  },
+  {
+    "Bus_ID": 7,
+    "Route_Name": "King's Palace KP-7 \u2194 Campus-Kaveri Route",
+    "Stop_Name": "King's Palace KP-7",
+    "Stop_Order": 1,
+    "Time": "07:17 AM"
+  },
+  {
+    "Bus_ID": 7,
+    "Route_Name": "King's Palace KP-7 \u2194 Campus-Kaveri Route",
+    "Stop_Name": "Campus-Kaveri Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:27 AM"
+  },
+  {
+    "Bus_ID": 7,
+    "Route_Name": "King's Palace KP-7 \u2194 Campus-Kaveri Route",
+    "Stop_Name": "Campus-Kaveri Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:37 AM"
+  },
+  {
+    "Bus_ID": 7,
+    "Route_Name": "King's Palace KP-7 \u2194 Campus-Kaveri Route",
+    "Stop_Name": "Campus-Kaveri Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:47 AM"
+  },
+  {
+    "Bus_ID": 8,
+    "Route_Name": "King's Palace KP-8 \u2194 Campus-Ganga Route",
+    "Stop_Name": "King's Palace KP-8",
+    "Stop_Order": 1,
+    "Time": "07:52 AM"
+  },
+  {
+    "Bus_ID": 8,
+    "Route_Name": "King's Palace KP-8 \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Main Gate",
+    "Stop_Order": 2,
+    "Time": "08:02 AM"
+  },
+  {
+    "Bus_ID": 8,
+    "Route_Name": "King's Palace KP-8 \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Academic Block",
+    "Stop_Order": 3,
+    "Time": "08:12 AM"
+  },
+  {
+    "Bus_ID": 8,
+    "Route_Name": "King's Palace KP-8 \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:22 AM"
+  },
+  {
+    "Bus_ID": 9,
+    "Route_Name": "King's Palace KP-9 \u2194 Campus-Brahmani Route",
+    "Stop_Name": "King's Palace KP-9",
+    "Stop_Order": 1,
+    "Time": "07:47 AM"
+  },
+  {
+    "Bus_ID": 9,
+    "Route_Name": "King's Palace KP-9 \u2194 Campus-Brahmani Route",
+    "Stop_Name": "Campus-Brahmani Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:57 AM"
+  },
+  {
+    "Bus_ID": 9,
+    "Route_Name": "King's Palace KP-9 \u2194 Campus-Brahmani Route",
+    "Stop_Name": "Campus-Brahmani Academic Block",
+    "Stop_Order": 3,
+    "Time": "08:07 AM"
+  },
+  {
+    "Bus_ID": 9,
+    "Route_Name": "King's Palace KP-9 \u2194 Campus-Brahmani Route",
+    "Stop_Name": "Campus-Brahmani Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:17 AM"
+  },
+  {
+    "Bus_ID": 10,
+    "Route_Name": "King's Palace KP-10 \u2194 Campus-Brahmani Route",
+    "Stop_Name": "King's Palace KP-10",
+    "Stop_Order": 1,
+    "Time": "07:41 AM"
+  },
+  {
+    "Bus_ID": 10,
+    "Route_Name": "King's Palace KP-10 \u2194 Campus-Brahmani Route",
+    "Stop_Name": "Campus-Brahmani Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:51 AM"
+  },
+  {
+    "Bus_ID": 10,
+    "Route_Name": "King's Palace KP-10 \u2194 Campus-Brahmani Route",
+    "Stop_Name": "Campus-Brahmani Academic Block",
+    "Stop_Order": 3,
+    "Time": "08:01 AM"
+  },
+  {
+    "Bus_ID": 10,
+    "Route_Name": "King's Palace KP-10 \u2194 Campus-Brahmani Route",
+    "Stop_Name": "Campus-Brahmani Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:11 AM"
+  },
+  {
+    "Bus_ID": 11,
+    "Route_Name": "King's Palace KP-11 \u2194 Campus-Baitarani Route",
+    "Stop_Name": "King's Palace KP-11",
+    "Stop_Order": 1,
+    "Time": "07:24 AM"
+  },
+  {
+    "Bus_ID": 11,
+    "Route_Name": "King's Palace KP-11 \u2194 Campus-Baitarani Route",
+    "Stop_Name": "Campus-Baitarani Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:34 AM"
+  },
+  {
+    "Bus_ID": 11,
+    "Route_Name": "King's Palace KP-11 \u2194 Campus-Baitarani Route",
+    "Stop_Name": "Campus-Baitarani Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:44 AM"
+  },
+  {
+    "Bus_ID": 11,
+    "Route_Name": "King's Palace KP-11 \u2194 Campus-Baitarani Route",
+    "Stop_Name": "Campus-Baitarani Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:54 AM"
+  },
+  {
+    "Bus_ID": 12,
+    "Route_Name": "King's Palace KP-12 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "King's Palace KP-12",
+    "Stop_Order": 1,
+    "Time": "07:43 AM"
+  },
+  {
+    "Bus_ID": 12,
+    "Route_Name": "King's Palace KP-12 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "Campus-Yamuna Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:53 AM"
+  },
+  {
+    "Bus_ID": 12,
+    "Route_Name": "King's Palace KP-12 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "Campus-Yamuna Academic Block",
+    "Stop_Order": 3,
+    "Time": "08:03 AM"
+  },
+  {
+    "Bus_ID": 12,
+    "Route_Name": "King's Palace KP-12 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "Campus-Yamuna Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:13 AM"
+  },
+  {
+    "Bus_ID": 13,
+    "Route_Name": "King's Palace KP-13 \u2194 Campus-Kharasrota Route",
+    "Stop_Name": "King's Palace KP-13",
+    "Stop_Order": 1,
+    "Time": "07:49 AM"
+  },
+  {
+    "Bus_ID": 13,
+    "Route_Name": "King's Palace KP-13 \u2194 Campus-Kharasrota Route",
+    "Stop_Name": "Campus-Kharasrota Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:59 AM"
+  },
+  {
+    "Bus_ID": 13,
+    "Route_Name": "King's Palace KP-13 \u2194 Campus-Kharasrota Route",
+    "Stop_Name": "Campus-Kharasrota Academic Block",
+    "Stop_Order": 3,
+    "Time": "08:09 AM"
+  },
+  {
+    "Bus_ID": 13,
+    "Route_Name": "King's Palace KP-13 \u2194 Campus-Kharasrota Route",
+    "Stop_Name": "Campus-Kharasrota Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:19 AM"
+  },
+  {
+    "Bus_ID": 14,
+    "Route_Name": "King's Palace KP-14 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "King's Palace KP-14",
+    "Stop_Order": 1,
+    "Time": "07:35 AM"
+  },
+  {
+    "Bus_ID": 14,
+    "Route_Name": "King's Palace KP-14 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:45 AM"
+  },
+  {
+    "Bus_ID": 14,
+    "Route_Name": "King's Palace KP-14 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:55 AM"
+  },
+  {
+    "Bus_ID": 14,
+    "Route_Name": "King's Palace KP-14 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:05 AM"
+  },
+  {
+    "Bus_ID": 15,
+    "Route_Name": "King's Palace KP-15 \u2194 Campus-Ganga Route",
+    "Stop_Name": "King's Palace KP-15",
+    "Stop_Order": 1,
+    "Time": "07:16 AM"
+  },
+  {
+    "Bus_ID": 15,
+    "Route_Name": "King's Palace KP-15 \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:26 AM"
+  },
+  {
+    "Bus_ID": 15,
+    "Route_Name": "King's Palace KP-15 \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:36 AM"
+  },
+  {
+    "Bus_ID": 15,
+    "Route_Name": "King's Palace KP-15 \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:46 AM"
+  },
+  {
+    "Bus_ID": 16,
+    "Route_Name": "King's Palace KP-16 \u2194 Campus-Kathajodi Route",
+    "Stop_Name": "King's Palace KP-16",
+    "Stop_Order": 1,
+    "Time": "08:00 AM"
+  },
+  {
+    "Bus_ID": 16,
+    "Route_Name": "King's Palace KP-16 \u2194 Campus-Kathajodi Route",
+    "Stop_Name": "Campus-Kathajodi Main Gate",
+    "Stop_Order": 2,
+    "Time": "08:10 AM"
+  },
+  {
+    "Bus_ID": 16,
+    "Route_Name": "King's Palace KP-16 \u2194 Campus-Kathajodi Route",
+    "Stop_Name": "Campus-Kathajodi Academic Block",
+    "Stop_Order": 3,
+    "Time": "08:20 AM"
+  },
+  {
+    "Bus_ID": 16,
+    "Route_Name": "King's Palace KP-16 \u2194 Campus-Kathajodi Route",
+    "Stop_Name": "Campus-Kathajodi Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:30 AM"
+  },
+  {
+    "Bus_ID": 17,
+    "Route_Name": "King's Palace KP-17 \u2194 Campus-Tapti Route",
+    "Stop_Name": "King's Palace KP-17",
+    "Stop_Order": 1,
+    "Time": "07:10 AM"
+  },
+  {
+    "Bus_ID": 17,
+    "Route_Name": "King's Palace KP-17 \u2194 Campus-Tapti Route",
+    "Stop_Name": "Campus-Tapti Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:20 AM"
+  },
+  {
+    "Bus_ID": 17,
+    "Route_Name": "King's Palace KP-17 \u2194 Campus-Tapti Route",
+    "Stop_Name": "Campus-Tapti Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:30 AM"
+  },
+  {
+    "Bus_ID": 17,
+    "Route_Name": "King's Palace KP-17 \u2194 Campus-Tapti Route",
+    "Stop_Name": "Campus-Tapti Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:40 AM"
+  },
+  {
+    "Bus_ID": 18,
+    "Route_Name": "King's Palace KP-18 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "King's Palace KP-18",
+    "Stop_Order": 1,
+    "Time": "07:05 AM"
+  },
+  {
+    "Bus_ID": 18,
+    "Route_Name": "King's Palace KP-18 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Campus-Saraswati Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:15 AM"
+  },
+  {
+    "Bus_ID": 18,
+    "Route_Name": "King's Palace KP-18 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Campus-Saraswati Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:25 AM"
+  },
+  {
+    "Bus_ID": 18,
+    "Route_Name": "King's Palace KP-18 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Campus-Saraswati Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:35 AM"
+  },
+  {
+    "Bus_ID": 19,
+    "Route_Name": "King's Palace KP-19 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "King's Palace KP-19",
+    "Stop_Order": 1,
+    "Time": "07:14 AM"
+  },
+  {
+    "Bus_ID": 19,
+    "Route_Name": "King's Palace KP-19 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "Campus-Yamuna Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:24 AM"
+  },
+  {
+    "Bus_ID": 19,
+    "Route_Name": "King's Palace KP-19 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "Campus-Yamuna Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:34 AM"
+  },
+  {
+    "Bus_ID": 19,
+    "Route_Name": "King's Palace KP-19 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "Campus-Yamuna Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:44 AM"
+  },
+  {
+    "Bus_ID": 20,
+    "Route_Name": "King's Palace KP-20 \u2194 Campus-Baitarani Route",
+    "Stop_Name": "King's Palace KP-20",
+    "Stop_Order": 1,
+    "Time": "07:26 AM"
+  },
+  {
+    "Bus_ID": 20,
+    "Route_Name": "King's Palace KP-20 \u2194 Campus-Baitarani Route",
+    "Stop_Name": "Campus-Baitarani Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:36 AM"
+  },
+  {
+    "Bus_ID": 20,
+    "Route_Name": "King's Palace KP-20 \u2194 Campus-Baitarani Route",
+    "Stop_Name": "Campus-Baitarani Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:46 AM"
+  },
+  {
+    "Bus_ID": 20,
+    "Route_Name": "King's Palace KP-20 \u2194 Campus-Baitarani Route",
+    "Stop_Name": "Campus-Baitarani Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:56 AM"
+  },
+  {
+    "Bus_ID": 21,
+    "Route_Name": "Queen's Castle QC-1 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "Queen's Castle QC-1",
+    "Stop_Order": 1,
+    "Time": "07:15 AM"
+  },
+  {
+    "Bus_ID": 21,
+    "Route_Name": "Queen's Castle QC-1 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "Campus-Yamuna Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:25 AM"
+  },
+  {
+    "Bus_ID": 21,
+    "Route_Name": "Queen's Castle QC-1 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "Campus-Yamuna Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:35 AM"
+  },
+  {
+    "Bus_ID": 21,
+    "Route_Name": "Queen's Castle QC-1 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "Campus-Yamuna Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:45 AM"
+  },
+  {
+    "Bus_ID": 22,
+    "Route_Name": "Queen's Castle QC-2 \u2194 Campus-Indus Route",
+    "Stop_Name": "Queen's Castle QC-2",
+    "Stop_Order": 1,
+    "Time": "07:04 AM"
+  },
+  {
+    "Bus_ID": 22,
+    "Route_Name": "Queen's Castle QC-2 \u2194 Campus-Indus Route",
+    "Stop_Name": "Campus-Indus Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:14 AM"
+  },
+  {
+    "Bus_ID": 22,
+    "Route_Name": "Queen's Castle QC-2 \u2194 Campus-Indus Route",
+    "Stop_Name": "Campus-Indus Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:24 AM"
+  },
+  {
+    "Bus_ID": 22,
+    "Route_Name": "Queen's Castle QC-2 \u2194 Campus-Indus Route",
+    "Stop_Name": "Campus-Indus Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:34 AM"
+  },
+  {
+    "Bus_ID": 23,
+    "Route_Name": "Queen's Castle QC-3 \u2194 Campus-Mahanadi Route",
+    "Stop_Name": "Queen's Castle QC-3",
+    "Stop_Order": 1,
+    "Time": "07:26 AM"
+  },
+  {
+    "Bus_ID": 23,
+    "Route_Name": "Queen's Castle QC-3 \u2194 Campus-Mahanadi Route",
+    "Stop_Name": "Campus-Mahanadi Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:36 AM"
+  },
+  {
+    "Bus_ID": 23,
+    "Route_Name": "Queen's Castle QC-3 \u2194 Campus-Mahanadi Route",
+    "Stop_Name": "Campus-Mahanadi Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:46 AM"
+  },
+  {
+    "Bus_ID": 23,
+    "Route_Name": "Queen's Castle QC-3 \u2194 Campus-Mahanadi Route",
+    "Stop_Name": "Campus-Mahanadi Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:56 AM"
+  },
+  {
+    "Bus_ID": 24,
+    "Route_Name": "Queen's Castle QC-4 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Queen's Castle QC-4",
+    "Stop_Order": 1,
+    "Time": "07:41 AM"
+  },
+  {
+    "Bus_ID": 24,
+    "Route_Name": "Queen's Castle QC-4 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:51 AM"
+  },
+  {
+    "Bus_ID": 24,
+    "Route_Name": "Queen's Castle QC-4 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Academic Block",
+    "Stop_Order": 3,
+    "Time": "08:01 AM"
+  },
+  {
+    "Bus_ID": 24,
+    "Route_Name": "Queen's Castle QC-4 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:11 AM"
+  },
+  {
+    "Bus_ID": 25,
+    "Route_Name": "Queen's Castle QC-5 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Queen's Castle QC-5",
+    "Stop_Order": 1,
+    "Time": "07:09 AM"
+  },
+  {
+    "Bus_ID": 25,
+    "Route_Name": "Queen's Castle QC-5 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Campus-Saraswati Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:19 AM"
+  },
+  {
+    "Bus_ID": 25,
+    "Route_Name": "Queen's Castle QC-5 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Campus-Saraswati Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:29 AM"
+  },
+  {
+    "Bus_ID": 25,
+    "Route_Name": "Queen's Castle QC-5 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Campus-Saraswati Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:39 AM"
+  },
+  {
+    "Bus_ID": 26,
+    "Route_Name": "Queen's Castle QC-6 \u2194 Campus-Brahmani Route",
+    "Stop_Name": "Queen's Castle QC-6",
+    "Stop_Order": 1,
+    "Time": "07:38 AM"
+  },
+  {
+    "Bus_ID": 26,
+    "Route_Name": "Queen's Castle QC-6 \u2194 Campus-Brahmani Route",
+    "Stop_Name": "Campus-Brahmani Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:48 AM"
+  },
+  {
+    "Bus_ID": 26,
+    "Route_Name": "Queen's Castle QC-6 \u2194 Campus-Brahmani Route",
+    "Stop_Name": "Campus-Brahmani Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:58 AM"
+  },
+  {
+    "Bus_ID": 26,
+    "Route_Name": "Queen's Castle QC-6 \u2194 Campus-Brahmani Route",
+    "Stop_Name": "Campus-Brahmani Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:08 AM"
+  },
+  {
+    "Bus_ID": 27,
+    "Route_Name": "Queen's Castle QC-7 \u2194 Campus-Narmada Route",
+    "Stop_Name": "Queen's Castle QC-7",
+    "Stop_Order": 1,
+    "Time": "07:21 AM"
+  },
+  {
+    "Bus_ID": 27,
+    "Route_Name": "Queen's Castle QC-7 \u2194 Campus-Narmada Route",
+    "Stop_Name": "Campus-Narmada Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:31 AM"
+  },
+  {
+    "Bus_ID": 27,
+    "Route_Name": "Queen's Castle QC-7 \u2194 Campus-Narmada Route",
+    "Stop_Name": "Campus-Narmada Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:41 AM"
+  },
+  {
+    "Bus_ID": 27,
+    "Route_Name": "Queen's Castle QC-7 \u2194 Campus-Narmada Route",
+    "Stop_Name": "Campus-Narmada Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:51 AM"
+  },
+  {
+    "Bus_ID": 28,
+    "Route_Name": "Queen's Castle QC-8 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Queen's Castle QC-8",
+    "Stop_Order": 1,
+    "Time": "07:39 AM"
+  },
+  {
+    "Bus_ID": 28,
+    "Route_Name": "Queen's Castle QC-8 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Campus-Saraswati Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:49 AM"
+  },
+  {
+    "Bus_ID": 28,
+    "Route_Name": "Queen's Castle QC-8 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Campus-Saraswati Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:59 AM"
+  },
+  {
+    "Bus_ID": 28,
+    "Route_Name": "Queen's Castle QC-8 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Campus-Saraswati Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:09 AM"
+  },
+  {
+    "Bus_ID": 29,
+    "Route_Name": "Queen's Castle QC-9 \u2194 Campus-Ganga Route",
+    "Stop_Name": "Queen's Castle QC-9",
+    "Stop_Order": 1,
+    "Time": "07:30 AM"
+  },
+  {
+    "Bus_ID": 29,
+    "Route_Name": "Queen's Castle QC-9 \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:40 AM"
+  },
+  {
+    "Bus_ID": 29,
+    "Route_Name": "Queen's Castle QC-9 \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:50 AM"
+  },
+  {
+    "Bus_ID": 29,
+    "Route_Name": "Queen's Castle QC-9 \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:00 AM"
+  },
+  {
+    "Bus_ID": 30,
+    "Route_Name": "Queen's Castle QC-10 \u2194 Campus-Baitarani Route",
+    "Stop_Name": "Queen's Castle QC-10",
+    "Stop_Order": 1,
+    "Time": "07:31 AM"
+  },
+  {
+    "Bus_ID": 30,
+    "Route_Name": "Queen's Castle QC-10 \u2194 Campus-Baitarani Route",
+    "Stop_Name": "Campus-Baitarani Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:41 AM"
+  },
+  {
+    "Bus_ID": 30,
+    "Route_Name": "Queen's Castle QC-10 \u2194 Campus-Baitarani Route",
+    "Stop_Name": "Campus-Baitarani Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:51 AM"
+  },
+  {
+    "Bus_ID": 30,
+    "Route_Name": "Queen's Castle QC-10 \u2194 Campus-Baitarani Route",
+    "Stop_Name": "Campus-Baitarani Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:01 AM"
+  },
+  {
+    "Bus_ID": 31,
+    "Route_Name": "Queen's Castle QC-11 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Queen's Castle QC-11",
+    "Stop_Order": 1,
+    "Time": "07:24 AM"
+  },
+  {
+    "Bus_ID": 31,
+    "Route_Name": "Queen's Castle QC-11 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:34 AM"
+  },
+  {
+    "Bus_ID": 31,
+    "Route_Name": "Queen's Castle QC-11 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:44 AM"
+  },
+  {
+    "Bus_ID": 31,
+    "Route_Name": "Queen's Castle QC-11 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:54 AM"
+  },
+  {
+    "Bus_ID": 32,
+    "Route_Name": "Queen's Castle QC-12 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "Queen's Castle QC-12",
+    "Stop_Order": 1,
+    "Time": "07:53 AM"
+  },
+  {
+    "Bus_ID": 32,
+    "Route_Name": "Queen's Castle QC-12 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "Campus-Yamuna Main Gate",
+    "Stop_Order": 2,
+    "Time": "08:03 AM"
+  },
+  {
+    "Bus_ID": 32,
+    "Route_Name": "Queen's Castle QC-12 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "Campus-Yamuna Academic Block",
+    "Stop_Order": 3,
+    "Time": "08:13 AM"
+  },
+  {
+    "Bus_ID": 32,
+    "Route_Name": "Queen's Castle QC-12 \u2194 Campus-Yamuna Route",
+    "Stop_Name": "Campus-Yamuna Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:23 AM"
+  },
+  {
+    "Bus_ID": 33,
+    "Route_Name": "Queen's Castle QC-13 \u2194 Campus-Chilika Route",
+    "Stop_Name": "Queen's Castle QC-13",
+    "Stop_Order": 1,
+    "Time": "07:12 AM"
+  },
+  {
+    "Bus_ID": 33,
+    "Route_Name": "Queen's Castle QC-13 \u2194 Campus-Chilika Route",
+    "Stop_Name": "Campus-Chilika Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:22 AM"
+  },
+  {
+    "Bus_ID": 33,
+    "Route_Name": "Queen's Castle QC-13 \u2194 Campus-Chilika Route",
+    "Stop_Name": "Campus-Chilika Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:32 AM"
+  },
+  {
+    "Bus_ID": 33,
+    "Route_Name": "Queen's Castle QC-13 \u2194 Campus-Chilika Route",
+    "Stop_Name": "Campus-Chilika Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:42 AM"
+  },
+  {
+    "Bus_ID": 34,
+    "Route_Name": "Queen's Castle QC-14 \u2194 Campus-Sabarmati Route",
+    "Stop_Name": "Queen's Castle QC-14",
+    "Stop_Order": 1,
+    "Time": "07:13 AM"
+  },
+  {
+    "Bus_ID": 34,
+    "Route_Name": "Queen's Castle QC-14 \u2194 Campus-Sabarmati Route",
+    "Stop_Name": "Campus-Sabarmati Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:23 AM"
+  },
+  {
+    "Bus_ID": 34,
+    "Route_Name": "Queen's Castle QC-14 \u2194 Campus-Sabarmati Route",
+    "Stop_Name": "Campus-Sabarmati Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:33 AM"
+  },
+  {
+    "Bus_ID": 34,
+    "Route_Name": "Queen's Castle QC-14 \u2194 Campus-Sabarmati Route",
+    "Stop_Name": "Campus-Sabarmati Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:43 AM"
+  },
+  {
+    "Bus_ID": 35,
+    "Route_Name": "Queen's Castle QC-15 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Queen's Castle QC-15",
+    "Stop_Order": 1,
+    "Time": "07:08 AM"
+  },
+  {
+    "Bus_ID": 35,
+    "Route_Name": "Queen's Castle QC-15 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:18 AM"
+  },
+  {
+    "Bus_ID": 35,
+    "Route_Name": "Queen's Castle QC-15 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:28 AM"
+  },
+  {
+    "Bus_ID": 35,
+    "Route_Name": "Queen's Castle QC-15 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:38 AM"
+  },
+  {
+    "Bus_ID": 36,
+    "Route_Name": "Queen's Castle QC-16 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Queen's Castle QC-16",
+    "Stop_Order": 1,
+    "Time": "07:00 AM"
+  },
+  {
+    "Bus_ID": 36,
+    "Route_Name": "Queen's Castle QC-16 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:10 AM"
+  },
+  {
+    "Bus_ID": 36,
+    "Route_Name": "Queen's Castle QC-16 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:20 AM"
+  },
+  {
+    "Bus_ID": 36,
+    "Route_Name": "Queen's Castle QC-16 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:30 AM"
+  },
+  {
+    "Bus_ID": 37,
+    "Route_Name": "Queen's Castle QC-17 \u2194 Campus-Krishna Route",
+    "Stop_Name": "Queen's Castle QC-17",
+    "Stop_Order": 1,
+    "Time": "07:57 AM"
+  },
+  {
+    "Bus_ID": 37,
+    "Route_Name": "Queen's Castle QC-17 \u2194 Campus-Krishna Route",
+    "Stop_Name": "Campus-Krishna Main Gate",
+    "Stop_Order": 2,
+    "Time": "08:07 AM"
+  },
+  {
+    "Bus_ID": 37,
+    "Route_Name": "Queen's Castle QC-17 \u2194 Campus-Krishna Route",
+    "Stop_Name": "Campus-Krishna Academic Block",
+    "Stop_Order": 3,
+    "Time": "08:17 AM"
+  },
+  {
+    "Bus_ID": 37,
+    "Route_Name": "Queen's Castle QC-17 \u2194 Campus-Krishna Route",
+    "Stop_Name": "Campus-Krishna Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:27 AM"
+  },
+  {
+    "Bus_ID": 38,
+    "Route_Name": "Queen's Castle QC-18 \u2194 Campus-Daya Route",
+    "Stop_Name": "Queen's Castle QC-18",
+    "Stop_Order": 1,
+    "Time": "07:45 AM"
+  },
+  {
+    "Bus_ID": 38,
+    "Route_Name": "Queen's Castle QC-18 \u2194 Campus-Daya Route",
+    "Stop_Name": "Campus-Daya Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:55 AM"
+  },
+  {
+    "Bus_ID": 38,
+    "Route_Name": "Queen's Castle QC-18 \u2194 Campus-Daya Route",
+    "Stop_Name": "Campus-Daya Academic Block",
+    "Stop_Order": 3,
+    "Time": "08:05 AM"
+  },
+  {
+    "Bus_ID": 38,
+    "Route_Name": "Queen's Castle QC-18 \u2194 Campus-Daya Route",
+    "Stop_Name": "Campus-Daya Lab Complex",
+    "Stop_Order": 4,
+    "Time": "08:15 AM"
+  },
+  {
+    "Bus_ID": 39,
+    "Route_Name": "Queen's Castle QC-19 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Queen's Castle QC-19",
+    "Stop_Order": 1,
+    "Time": "07:05 AM"
+  },
+  {
+    "Bus_ID": 39,
+    "Route_Name": "Queen's Castle QC-19 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Campus-Saraswati Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:15 AM"
+  },
+  {
+    "Bus_ID": 39,
+    "Route_Name": "Queen's Castle QC-19 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Campus-Saraswati Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:25 AM"
+  },
+  {
+    "Bus_ID": 39,
+    "Route_Name": "Queen's Castle QC-19 \u2194 Campus-Saraswati Route",
+    "Stop_Name": "Campus-Saraswati Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:35 AM"
+  },
+  {
+    "Bus_ID": 40,
+    "Route_Name": "Queen's Castle QC-20 \u2194 Campus-Ganga Route",
+    "Stop_Name": "Queen's Castle QC-20",
+    "Stop_Order": 1,
+    "Time": "07:03 AM"
+  },
+  {
+    "Bus_ID": 40,
+    "Route_Name": "Queen's Castle QC-20 \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:13 AM"
+  },
+  {
+    "Bus_ID": 40,
+    "Route_Name": "Queen's Castle QC-20 \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:23 AM"
+  },
+  {
+    "Bus_ID": 40,
+    "Route_Name": "Queen's Castle QC-20 \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:33 AM"
+  },
+  {
+    "Bus_ID": 41,
+    "Route_Name": "PG Hostel Campus-23 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "PG Hostel Campus-23",
+    "Stop_Order": 1,
+    "Time": "07:08 AM"
+  },
+  {
+    "Bus_ID": 41,
+    "Route_Name": "PG Hostel Campus-23 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:18 AM"
+  },
+  {
+    "Bus_ID": 41,
+    "Route_Name": "PG Hostel Campus-23 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:28 AM"
+  },
+  {
+    "Bus_ID": 41,
+    "Route_Name": "PG Hostel Campus-23 \u2194 Campus-Brahmaputra Route",
+    "Stop_Name": "Campus-Brahmaputra Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:38 AM"
+  },
+  {
+    "Bus_ID": 42,
+    "Route_Name": "Nursing Hostel \u2194 Campus-Ganga Route",
+    "Stop_Name": "Nursing Hostel",
+    "Stop_Order": 1,
+    "Time": "07:24 AM"
+  },
+  {
+    "Bus_ID": 42,
+    "Route_Name": "Nursing Hostel \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Main Gate",
+    "Stop_Order": 2,
+    "Time": "07:34 AM"
+  },
+  {
+    "Bus_ID": 42,
+    "Route_Name": "Nursing Hostel \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Academic Block",
+    "Stop_Order": 3,
+    "Time": "07:44 AM"
+  },
+  {
+    "Bus_ID": 42,
+    "Route_Name": "Nursing Hostel \u2194 Campus-Ganga Route",
+    "Stop_Name": "Campus-Ganga Lab Complex",
+    "Stop_Order": 4,
+    "Time": "07:54 AM"
+  }
+]

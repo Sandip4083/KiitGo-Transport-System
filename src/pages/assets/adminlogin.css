@@ -1,0 +1,86 @@
+
+
+.logo-container {
+  display: flex;             /* puts logo + text in one line */
+  align-items: center;       /* vertically centers logo + text */
+  justify-content: center;   /* centers both together */
+  gap: 12px;                 /* space between logo and text */
+  margin-bottom: 20px;
+  align-content: stretch;
+  flex-wrap: wrap;           /* ✅ allow wrapping on very small screens */
+  text-align: center;
+}
+
+.login-logo {
+  width: 50px;               /* default logo size */
+  height: auto;
+  flex-shrink: 0;            /* ✅ prevents logo from shrinking weirdly */
+}
+
+.login-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00C853;
+  white-space: nowrap;       /* prevent breaking on normal screens */
+}
+
+/* Error message */
+.error-message {
+  color: #ff4d4f;
+  background: #fff2f0;
+  border: 1px solid #ffccc7;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* 📱 Responsive Tweaks */
+
+/* Very small devices (<360px) */
+@media (max-width: 360px) {
+  .login-logo {
+    width: 35px;            /* smaller logo */
+  }
+  .login-heading {
+    font-size: 18px;        /* smaller heading */
+    white-space: normal;    /* allow text wrap if needed */
+  }
+  .error-message {
+    font-size: 12px;        /* smaller error text */
+    padding: 8px;
+  }
+}
+
+/* Tablets (≥768px) */
+@media (min-width: 768px) {
+  .login-logo {
+    width: 60px;
+  }
+  .login-heading {
+    font-size: 28px;
+  }
+  .error-message {
+    font-size: 15px;
+  }
+}
+
+/* Desktops (≥1024px) */
+@media (min-width: 1024px) {
+  .login-logo {
+    width: 70px;
+  }
+  .login-heading {
+    font-size: 32px;
+  }
+  .error-message {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "Bus_ID":1,
+    "Route_Name":"KIIT ROAD",
+    "Stop_Name":"CAMPUS-25",
+    "Stop_Order":1,
+    "Time":"08:00 AM"
+  },
+  {
+    "Bus_ID":1,
+    "Route_Name":"KIIT ROAD",
+    "Stop_Name":"KP-6",
+    "Stop_Order":2,
+    "Time":"08:10 AM"
+  },
+  {
+    "Bus_ID":1,
+    "Route_Name":"KIIT ROAD",
+    "Stop_Name":"KP-26",
+    "Stop_Order":3,
+    "Time":"08:20 AM"
+  },
+  {
+    "Bus_ID":2,
+    "Route_Name":"Hostel Express",
+    "Stop_Name":"Hostel Block B",
+    "Stop_Order":1,
+    "Time":"08:05 AM"
+  },
+  {
+    "Bus_ID":2,
+    "Route_Name":"Hostel Express",
+    "Stop_Name":"Main Gate",
+    "Stop_Order":2,
+    "Time":"08:15 AM"
+  },
+  {
+    "Bus_ID":2,
+    "Route_Name":"Hostel Express",
+    "Stop_Name":"Canteen",
+    "Stop_Order":3,
+    "Time":"08:25 AM"
+  },
+  {
+    "Bus_ID":3,
+    "Route_Name":"City Shuttle",
+    "Stop_Name":"Railway Station",
+    "Stop_Order":1,
+    "Time":"07:50 AM"
+  },
+  {
+    "Bus_ID":3,
+    "Route_Name":"City Shuttle",
+    "Stop_Name":"Main Gate",
+    "Stop_Order":2,
+    "Time":"08:30 AM"
+  },
+  {
+    "Bus_ID":3,
+    "Route_Name":"City Shuttle",
+    "Stop_Name":"Admin Block",
+    "Stop_Order":3,
+    "Time":"08:45 AM"
+  }
+]

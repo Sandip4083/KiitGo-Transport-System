@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* ✅ Always cover the full viewport */
+  min-height: 100vh;
+
+  background: url('./pages/assets/Loginbackground1.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;  /* keep fixed on desktop */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* ✅ Mobile / Tablet fix for black strip */
+@media (max-width: 768px) {
+  body {
+    background-size: cover;          /* fill entire screen */
+    background-position: top center;
+    background-attachment: scroll;   /* fixes iOS/Android black gap issue */
+  }
+}

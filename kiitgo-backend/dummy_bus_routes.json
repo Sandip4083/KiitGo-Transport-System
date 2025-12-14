@@ -1,0 +1,265 @@
+
+[
+  {
+    "Bus_ID": 1,
+    "Bus_Number": "KB-101",
+    "Source": "Gate A",
+    "Destination": "Library Block",
+    "Stop_Name": "Gate A",
+    "Stop_Order": 1,
+    "Time": "07:00 AM"
+  },
+  {
+    "Bus_ID": 1,
+    "Bus_Number": "KB-101",
+    "Source": "Gate A",
+    "Destination": "Library Block",
+    "Stop_Name": "Block X",
+    "Stop_Order": 2,
+    "Time": "07:10 AM"
+  },
+  {
+    "Bus_ID": 1,
+    "Bus_Number": "KB-101",
+    "Source": "Gate A",
+    "Destination": "Library Block",
+    "Stop_Name": "Block Y",
+    "Stop_Order": 3,
+    "Time": "07:20 AM"
+  },
+  {
+    "Bus_ID": 1,
+    "Bus_Number": "KB-101",
+    "Source": "Gate A",
+    "Destination": "Library Block",
+    "Stop_Name": "Block Z",
+    "Stop_Order": 4,
+    "Time": "07:30 AM"
+  },
+  {
+    "Bus_ID": 1,
+    "Bus_Number": "KB-101",
+    "Source": "Gate A",
+    "Destination": "Library Block",
+    "Stop_Name": "Library Block",
+    "Stop_Order": 5,
+    "Time": "07:40 AM"
+  },
+  {
+    "Bus_ID": 2,
+    "Bus_Number": "KB-202",
+    "Source": "Gate B",
+    "Destination": "Sports Complex",
+    "Stop_Name": "Gate B",
+    "Stop_Order": 1,
+    "Time": "07:15 AM"
+  },
+  {
+    "Bus_ID": 2,
+    "Bus_Number": "KB-202",
+    "Source": "Gate B",
+    "Destination": "Sports Complex",
+    "Stop_Name": "Block P",
+    "Stop_Order": 2,
+    "Time": "07:25 AM"
+  },
+  {
+    "Bus_ID": 2,
+    "Bus_Number": "KB-202",
+    "Source": "Gate B",
+    "Destination": "Sports Complex",
+    "Stop_Name": "Block Q",
+    "Stop_Order": 3,
+    "Time": "07:35 AM"
+  },
+  {
+    "Bus_ID": 2,
+    "Bus_Number": "KB-202",
+    "Source": "Gate B",
+    "Destination": "Sports Complex",
+    "Stop_Name": "Block R",
+    "Stop_Order": 4,
+    "Time": "07:45 AM"
+  },
+  {
+    "Bus_ID": 2,
+    "Bus_Number": "KB-202",
+    "Source": "Gate B",
+    "Destination": "Sports Complex",
+    "Stop_Name": "Sports Complex",
+    "Stop_Order": 5,
+    "Time": "07:55 AM"
+  },
+  {
+    "Bus_ID": 3,
+    "Bus_Number": "KB-303",
+    "Source": "Gate C",
+    "Destination": "Auditorium",
+    "Stop_Name": "Gate C",
+    "Stop_Order": 1,
+    "Time": "08:00 AM"
+  },
+  {
+    "Bus_ID": 3,
+    "Bus_Number": "KB-303",
+    "Source": "Gate C",
+    "Destination": "Auditorium",
+    "Stop_Name": "Block M",
+    "Stop_Order": 2,
+    "Time": "08:08 AM"
+  },
+  {
+    "Bus_ID": 3,
+    "Bus_Number": "KB-303",
+    "Source": "Gate C",
+    "Destination": "Auditorium",
+    "Stop_Name": "Block N",
+    "Stop_Order": 3,
+    "Time": "08:16 AM"
+  },
+  {
+    "Bus_ID": 3,
+    "Bus_Number": "KB-303",
+    "Source": "Gate C",
+    "Destination": "Auditorium",
+    "Stop_Name": "Auditorium",
+    "Stop_Order": 4,
+    "Time": "08:24 AM"
+  },
+  {
+    "Bus_ID": 4,
+    "Bus_Number": "KB-404",
+    "Source": "Gate D",
+    "Destination": "Admin Office",
+    "Stop_Name": "Gate D",
+    "Stop_Order": 1,
+    "Time": "07:30 AM"
+  },
+  {
+    "Bus_ID": 4,
+    "Bus_Number": "KB-404",
+    "Source": "Gate D",
+    "Destination": "Admin Office",
+    "Stop_Name": "Block S",
+    "Stop_Order": 2,
+    "Time": "07:40 AM"
+  },
+  {
+    "Bus_ID": 4,
+    "Bus_Number": "KB-404",
+    "Source": "Gate D",
+    "Destination": "Admin Office",
+    "Stop_Name": "Block T",
+    "Stop_Order": 3,
+    "Time": "07:50 AM"
+  },
+  {
+    "Bus_ID": 4,
+    "Bus_Number": "KB-404",
+    "Source": "Gate D",
+    "Destination": "Admin Office",
+    "Stop_Name": "Block U",
+    "Stop_Order": 4,
+    "Time": "08:00 AM"
+  },
+  {
+    "Bus_ID": 4,
+    "Bus_Number": "KB-404",
+    "Source": "Gate D",
+    "Destination": "Admin Office",
+    "Stop_Name": "Block V",
+    "Stop_Order": 5,
+    "Time": "08:10 AM"
+  },
+  {
+    "Bus_ID": 4,
+    "Bus_Number": "KB-404",
+    "Source": "Gate D",
+    "Destination": "Admin Office",
+    "Stop_Name": "Admin Office",
+    "Stop_Order": 6,
+    "Time": "08:20 AM"
+  },
+  {
+    "Bus_ID": 5,
+    "Bus_Number": "KB-505",
+    "Source": "Main Gate",
+    "Destination": "Hospital",
+    "Stop_Name": "Main Gate",
+    "Stop_Order": 1,
+    "Time": "07:45 AM"
+  },
+  {
+    "Bus_ID": 5,
+    "Bus_Number": "KB-505",
+    "Source": "Main Gate",
+    "Destination": "Hospital",
+    "Stop_Name": "Block A",
+    "Stop_Order": 2,
+    "Time": "07:52 AM"
+  },
+  {
+    "Bus_ID": 5,
+    "Bus_Number": "KB-505",
+    "Source": "Main Gate",
+    "Destination": "Hospital",
+    "Stop_Name": "Block B",
+    "Stop_Order": 3,
+    "Time": "07:59 AM"
+  },
+  {
+    "Bus_ID": 5,
+    "Bus_Number": "KB-505",
+    "Source": "Main Gate",
+    "Destination": "Hospital",
+    "Stop_Name": "Block C",
+    "Stop_Order": 4,
+    "Time": "08:06 AM"
+  },
+  {
+    "Bus_ID": 5,
+    "Bus_Number": "KB-505",
+    "Source": "Main Gate",
+    "Destination": "Hospital",
+    "Stop_Name": "Hospital",
+    "Stop_Order": 5,
+    "Time": "08:13 AM"
+  },
+  {
+    "Bus_ID": 6,
+    "Bus_Number": "KB-606",
+    "Source": "Gate E",
+    "Destination": "Cafeteria",
+    "Stop_Name": "Gate E",
+    "Stop_Order": 1,
+    "Time": "08:15 AM"
+  },
+  {
+    "Bus_ID": 6,
+    "Bus_Number": "KB-606",
+    "Source": "Gate E",
+    "Destination": "Cafeteria",
+    "Stop_Name": "Block D",
+    "Stop_Order": 2,
+    "Time": "08:22 AM"
+  },
+  {
+    "Bus_ID": 6,
+    "Bus_Number": "KB-606",
+    "Source": "Gate E",
+    "Destination": "Cafeteria",
+    "Stop_Name": "Block E",
+    "Stop_Order": 3,
+    "Time": "08:29 AM"
+  },
+  {
+    "Bus_ID": 6,
+    "Bus_Number": "KB-606",
+    "Source": "Gate E",
+    "Destination": "Cafeteria",
+    "Stop_Name": "Cafeteria",
+    "Stop_Order": 4,
+    "Time": "08:36 AM"
+  }
+]
+
