@@ -79,16 +79,10 @@ vercel dev
 
 ---
 
-## 👨‍💻 Team
+## 👨‍💻 Developed By
 
-| Member | Role |
-| ------ | ---- |
-| **Rohit Gupta** | Full Stack Developer |
-| **Kunal Kewat** | Backend Developer |
-| **Sandip Kumar Sah** | Full Stack Developer [MERN Stack] |
-| **Nawsad Ansari** | UI/UX Designer |
-| **Anmol Mishra** | Data Analyst |
-| **Priyanka Mondal** | Research Support |
+**Sandip Kumar Sah**  
+*Full Stack Developer (MERN Stack)*
 
 ---
 
