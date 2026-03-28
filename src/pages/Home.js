@@ -995,9 +995,9 @@ function Home() {
   };
 
   return (
-    <div style={styles.container} ref={containerRef}>
-      <div style={styles.mainFlex}>
-        <div style={styles.routeBox}>
+    <div style={styles.container} ref={containerRef} className="home-container">
+      <div style={styles.mainFlex} className="home-mainFlex">
+        <div style={styles.routeBox} className="home-routeBox">
           <h2 style={{ textAlign: "center", color: "#00C853" }}>
             Find Route 🔍
           </h2>
@@ -1075,7 +1075,7 @@ function Home() {
         </div>
 
         {result && (
-          <div style={styles.resultBox}>
+          <div style={styles.resultBox} className="home-resultBox">
             {typeof result === "string" ? (
               <p>{result}</p>
             ) : (

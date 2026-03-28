@@ -17,3 +17,45 @@
         /* right ki taraf chali jayegi */
     }
 }
+
+/* ================= Mobile Responsiveness ================= */
+
+.home-container {
+    padding: 80px 5% !important; /* switch from fixed 80px to percentage for safety */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        padding: 70px 15px !important;
+        margin-top: 10px !important;
+    }
+    .home-routeBox {
+        padding: 25px 15px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 1 1 100% !important;
+        box-sizing: border-box;
+    }
+    .home-resultBox {
+        min-width: 100% !important;
+        padding: 20px 15px !important;
+        width: 100% !important;
+        box-sizing: border-box;
+        margin-top: 15px !important;
+    }
+    .home-mainFlex {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    .home-container {
+        padding: 60px 10px !important;
+    }
+    .home-routeBox h2 {
+        font-size: 1.5rem;
+    }
+}
