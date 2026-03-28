@@ -1,17 +1,6 @@
-import { Link, useNavigate } from "react-router-dom";
 import kiitgoLogo from "../assets/KIITGO_logo.png";
 
 function Navbar() {
-  const navigate = useNavigate();
-
-  const handleLogout = () => {
-    // Clear session or tokens if you use them
-    localStorage.removeItem("LoggedInUser"); 
-    // Or clear all if needed: localStorage.clear();
-
-    // Redirect to login page
-    navigate("/login"); //  use lowercase (React Router is case-sensitive)
-  };
 
   return (
     <>
@@ -126,8 +115,6 @@ width:64px;
     </div>
     </div>
         <nav className="navbar">
-          {/*<Link to="/dashboard/view-complaints">View Complaints</Link>
-          <a onClick={handleLogout} style={{ cursor: "pointer" }}>Logout</a>*/}
         </nav>
       </header>
     </>
