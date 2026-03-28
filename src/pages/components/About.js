@@ -133,12 +133,16 @@ const About = () => {
         <h2>
           Developed <span>By</span>
         </h2>
-        <div className="team-grid" style={{ display: "flex", justifyContent: "center" }}>
-          <div className="team-member">
-            <img src="/assets/team_pic/sandip.jpg" alt="Sandip Kumar Sah" />
-            <h3>Sandip Kumar Sah</h3>
-            <p>Full Stack Developer (MERN Stack)</p>
-            <div className="social-links">
+        <div className="developer-container">
+          <div className="developer-card">
+            <img src="/assets/team_pic/sandip.jpg" alt="Sandip Kumar Sah" className="dev-img" />
+            
+            <div className="dev-info">
+              <h3>Sandip Kumar Sah</h3>
+              <p>Full Stack Developer (MERN Stack)</p>
+            </div>
+
+            <div className="dev-socials">
               <a href="https://github.com/Sandip4083" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
               <a href="https://linkedin.com/in/Sandip4083" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
               <a href="https://x.com/sandip4083" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
