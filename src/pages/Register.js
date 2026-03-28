@@ -77,18 +77,8 @@ function Register() {
 
         <div className="input-box">
           <input 
-            type="email" 
-            placeholder="Your KIIT Email" 
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required 
-          /> 
-        </div>
-
-        <div className="input-box">
-          <input 
             type="text" 
-            placeholder="New Username" 
+            placeholder="Full Name" 
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             required 
@@ -97,8 +87,18 @@ function Register() {
 
         <div className="input-box">
           <input 
+            type="email" 
+            placeholder="Email Address" 
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required 
+          /> 
+        </div>
+
+        <div className="input-box">
+          <input 
             type={showPassword ? "text" : "password"} 
-            placeholder="New Password" 
+            placeholder="Password" 
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required 
