@@ -1,13 +1,13 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
+require("dotenv").config();
 
 const app = express();
 app.use(express.json());
 
 // ============ MongoDB Connection (Serverless-safe) ============
-const MONGODB_URI =
-  "mongodb+srv://sandipcloud26_db_user:RuAxUhhOVcnew8TZ@cluster1.yfhtc8t.mongodb.net/kiitgo";
+const MONGODB_URI = process.env.MONGODB_URI;
 
 let cached = global._mongooseCache;
 if (!cached) {
