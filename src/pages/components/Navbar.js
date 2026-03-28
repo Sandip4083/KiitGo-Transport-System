@@ -241,6 +241,7 @@ function Navbar() {
           <Link to="/dashboard/About">About</Link>
           <Link to="/dashboard/contact">Contact</Link>
           <Link to="/dashboard/complain">Complain</Link>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a onClick={handleLogoutClick} style={{ cursor: "pointer" }}>Logout</a>
         </nav>
 
@@ -261,7 +262,8 @@ function Navbar() {
         <Link to="/dashboard/About" onClick={() => setMenuOpen(false)}>About</Link>
         <Link to="/dashboard/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
         <Link to="/dashboard/complain" onClick={() => setMenuOpen(false)}>Complain</Link>
-        <a onClick={handleLogoutClick}>Logout</a>
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+        <a onClick={handleLogoutClick} style={{ cursor: "pointer" }}>Logout</a>
       </div>
 
       {showModal && (

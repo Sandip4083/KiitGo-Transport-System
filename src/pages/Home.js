@@ -1,6 +1,6 @@
 import { faUpDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useMemo } from "react";
 import "./Home.css";
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
   const destRef = useRef(null);
   const containerRef = useRef(null);
 
-  const localBusData = [
+  const localBusData = useMemo(() => [
     {
       Bus_ID: 1,
       Bus_Number: "1",
@@ -736,7 +736,7 @@ function Home() {
       Stop_Order: 4,
       Time: "12:36 PM",
     },
-  ];
+  ], []);
 
   // Generate Reverse Routes
   const generateReverseRoutes = (data) => {
@@ -802,6 +802,7 @@ function Home() {
       ...new Set(allData.map((r) => r.Stop_Name.trim().toLowerCase())),
     ];
     setAllStops(uniqueStops);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [localBusData]);
 
   // Click outside to close suggestions
