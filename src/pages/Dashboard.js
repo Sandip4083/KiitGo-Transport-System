@@ -19,7 +19,7 @@ function Dashboard() {
       const parsedUser = JSON.parse(storedUser);
 
       // Verify user with backend
-      fetch(`http://localhost:5000/user/${parsedUser.id}`)
+      fetch(`/api/user/${parsedUser.id}`)
         .then((res) => {
           if (!res.ok) throw new Error("User verification failed");
           return res.json();

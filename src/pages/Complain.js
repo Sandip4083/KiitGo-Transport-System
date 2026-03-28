@@ -19,7 +19,7 @@ function Complain() {
     setSubmitted(false);
 
     try {
-      const res = await fetch("http://localhost:5000/complaints", {
+      const res = await fetch("/api/complaints", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -49,7 +49,7 @@ function Complain() {
 
     const fetchResolvedNotifications = async () => {
       try {
-        const res = await fetch("http://localhost:5000/complaints");
+        const res = await fetch("/api/complaints");
         const data = await res.json();
 
         if (res.ok && Array.isArray(data)) {
@@ -71,7 +71,7 @@ function Complain() {
 
             // Mark complaints as notified in backend
             newResolved.forEach(async (c) => {
-              await fetch(`http://localhost:5000/complaints/${c._id}/notify`, {
+              await fetch(`/api/complaints/${c._id}/notify`, {
                 method: "PUT",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ notified: true }),

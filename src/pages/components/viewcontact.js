@@ -6,7 +6,7 @@ function ViewContacts() {
   // ✅ Fetch contacts from backend API
   const fetchContacts = async () => {
     try {
-      const res = await fetch("http://localhost:5000/contact");
+      const res = await fetch("/api/contact");
       const data = await res.json();
       if (Array.isArray(data)) {
         setContacts(data);
@@ -26,7 +26,7 @@ function ViewContacts() {
   // ✅ Delete contact from DB
   const handleDelete = async (id) => {
     try {
-      await fetch(`http://localhost:5000/contact/${id}`, {
+      await fetch(`/api/contact/${id}`, {
         method: "DELETE",
       });
       setContacts((prev) => prev.filter((c) => c._id !== id));

@@ -2,7 +2,6 @@
   "name": "kiitbusservice",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sandip4083.github.io/KiitGo-Transport-System",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@fortawesome/fontawesome-svg-core": "^7.1.0",

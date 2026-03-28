@@ -7,7 +7,7 @@ function ManageUsers() {
 
   // ✅ Fetch users from backend
   const fetchUsers = () => {
-    fetch("http://localhost:5000/users")
+    fetch("/api/users")
       .then((res) => res.json())
       .then((data) => {
         if (Array.isArray(data)) {
@@ -24,7 +24,7 @@ function ManageUsers() {
   // ✅ Delete user
   const handleDelete = async (id) => {
     try {
-      await fetch(`http://localhost:5000/users/${id}`, { method: "DELETE" });
+      await fetch(`/api/users/${id}`, { method: "DELETE" });
       setUsers(users.filter((u) => u._id !== id));
     } catch (err) {
       console.error("Delete error:", err);
@@ -37,7 +37,7 @@ function ManageUsers() {
     setMessage("");
 
     try {
-      const res = await fetch("http://localhost:5000/register", {
+      const res = await fetch("/api/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username: newUser.name, email: newUser.email, password: newUser.password }),

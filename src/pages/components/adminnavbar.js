@@ -119,10 +119,10 @@ width:64px;
 
       <header className="navbar-container">
         <img src={kiitgoLogo} alt="KIITGO Logo" className="logo" />
-          <div class="navbar-box">
-    <div class="navbar-text">
-      <span class="navbar-title">Kalinga Institute of Industrial Technology</span>
-      <p class="navbar-subtitle">Deemed to be University U/S 3 of UGC Act, 1956</p>
+          <div className="navbar-box">
+    <div className="navbar-text">
+      <span className="navbar-title">Kalinga Institute of Industrial Technology</span>
+      <p className="navbar-subtitle">Deemed to be University U/S 3 of UGC Act, 1956</p>
     </div>
     </div>
         <nav className="navbar">

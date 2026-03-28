@@ -6,7 +6,7 @@ function ViewComplaints() {
   //  Fetch complaints from backend API 
   const fetchComplaints = async () => {
     try {
-      const res = await fetch("http://localhost:5000/complaints");
+      const res = await fetch("/api/complaints");
       const data = await res.json();
       if (Array.isArray(data)) {
         setComplaints(data);
@@ -26,7 +26,7 @@ function ViewComplaints() {
   // Delete complaint from DB
   const handleDelete = async (id) => {
     try {
-      await fetch(`http://localhost:5000/complaints/${id}`, {
+      await fetch(`/api/complaints/${id}`, {
         method: "DELETE",
       });
       setComplaints((prev) => prev.filter((c) => c._id !== id));
@@ -38,7 +38,7 @@ function ViewComplaints() {
   // Mark complaint as resolved in DB
   const handleResolve = async (id) => {
     try {
-      const res = await fetch(`http://localhost:5000/complaints/${id}/resolve`, {
+      const res = await fetch(`/api/complaints/${id}/resolve`, {
         method: "PUT",
       });
       const updatedComplaint = await res.json();

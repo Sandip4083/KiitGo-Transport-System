@@ -1,1 +1,4 @@
 node_modules
+kiitgo-backend/node_modules
+build
+.env
