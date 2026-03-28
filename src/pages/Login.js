@@ -118,7 +118,7 @@ function UserLogin() {
             Don’t have an account? <Link to="/register">Register</Link>
           </p>
           <p style={{ marginTop: "15px" }}>
-            <Link to="/adminlogin">Login as Admin</Link>
+            <Link to="/admin/login">Login as Admin</Link>
           </p>
         </div>
       </form>
