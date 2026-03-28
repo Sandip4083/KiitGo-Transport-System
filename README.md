@@ -1,140 +1,87 @@
-# KIITGO – Smart Bus Service Management System 🚍
+# 🚍 KIITGO – Smart Bus Service Management System
 
-KIITGO is a full-stack web application designed to manage and streamline bus services within KIIT University. The platform provides features for bus route management, student complaints, contact support, and admin operations through a modern web interface.
+> A full-stack, responsive web application designed for students and faculty of KIIT University to easily find, track, and manage campus bus transportation. 
 
----
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
-## 🔧 Tech Stack
+## ✨ Key Features
 
-### Frontend
-
-- React (Create React App)
-- React Router
-- Font Awesome
-- Emotion (CSS-in-JS)
-- Axios
-
-### Backend
-
-- Node.js
-- Express.js
-- MongoDB (Mongoose)
-- JWT Authentication
-- bcryptjs (Password hashing)
-- Nodemailer (Email services)
-- CORS & dotenv
+- **🚌 Bus Route Finder:** Search for buses using source and destination. Features include an autocomplete dropdown, a quick-swap button, and dynamic reverse-route generation.
+- **🔐 Role-Based Authentication:** Secure user and admin login/registration system with password validation and bcrypt hashing.
+- **📢 Live Complaint Box:** Users can submit transportation-related issues. The system features **real-time notifications** (polling) to alert users when the Admin resolves their complaint.
+- **📞 Contact Portal:** Direct messaging portal embedded with the KIIT University Google Maps location.
+- **👨‍💼 Dedicated Admin Dashboard:** Separate protected panel for admins to add/remove users, track/resolve complaints, and view contact submissions.
 
 ---
 
-## ✨ Features
+## 🛠️ Tech Stack
 
-- 🚌 _Bus Route Management_
-- 🧑‍🎓 _Student Complaint System_
-- 📞 _Contact & Support Module_
-- 🔐 _Authentication & Authorization (JWT)_
-- 👨‍💼 _Admin Management_
-- 📊 _Excel-based Data Handling_
-- 📬 _Email Notifications_
+- **Frontend:** React 19 (Create React App), React Router 7, Font Awesome, plain CSS.
+- **Backend:** Node.js, Express.js 5 (Configured as **Vercel Serverless Functions**).
+- **Database:** MongoDB Atlas (Mongoose ODM).
+- **Security:** `bcryptjs` for secure password hashing.
 
 ---
 
-## 📂 Project Structure
+## 🗄️ Database Architecture (MongoDB)
 
-KIITGO_clean/
-│
-├── kiitgo-backend/ # Backend (Node + Express + MongoDB)
-│ ├── db.js
-│ ├── busRoute.js
-│ ├── complaint.js
-│ ├── contact.js
-│ ├── addAdmin.js
-│ └── dummy_bus_routes.json
-│
-├── src/ # Frontend (React)
-├── public/
-├── package.json
-└── README.md
+| Collection | Description | Fields |
+|------------|-------------|--------|
+| **Users** | Platform users and admins. Uses an auto-incrementing `userId`. | `userId`, `name`, `email`, `password`, `role` |
+| **Complaints** | User-submitted issues regarding buses. | `name`, `roll`, `issue`, `status` (pending/resolved), `notified` |
+| **Contacts** | Form submissions from the contact page. | `name`, `email`, `message`, `date` |
 
 ---
 
-## 🚀 Installation & Setup
+## 🚀 Live Deployment Information
 
-### Prerequisites
-
-- Node.js (v18+ recommended)
-- MongoDB (local or Atlas)
-- Git
+This project is fully configured to be deployed on **Vercel** with a unified codebase:
+- The React SPA is served securely.
+- The Express backend is mapped via `vercel.json` to run as Serverless Functions out of the `/api` directory.
+- Connected seamlessly to MongoDB Atlas cloud database.
 
 ---
 
-### 1️⃣ Clone the Repository
+## 💻 Local Development Setup
 
-bash
-git clone https://github.com/your-username/KIITGO-Bus-Service.git
-cd KIITGO-Bus-Service
+To run this project locally on your machine, follow these steps:
 
-### 2️⃣ Frontend Setup
+### 1. Clone the repository
+```bash
+git clone https://github.com/Sandip4083/KiitGo-Transport-System.git
+cd KiitGo-Transport-System
+```
 
-bash
+### 2. Install Dependencies
+```bash
 npm install
-npm start
+```
+*(Note: Because the backend is configured serverless style for Vercel, backend dependencies like mongoose and express are kept in the root package.json).*
 
-Runs the app at:
-
-http://localhost:3000
-
-### 3️⃣ Backend Setup
-
-bash
-cd kiitgo-backend
-npm install
-node index.js
-
-Make sure to create a .env file inside kiitgo-backend:
-
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-EMAIL_USER=your_email
-EMAIL_PASS=your_email_password
+### 3. Run the Development Server
+Since Vercel handles the API routing in production, to run the serverless function locally during development alongside React, you can use the Vercel CLI:
+```bash
+npm i -g vercel
+vercel dev
+```
+*(Or you can start React (`npm start`) on Port 3000 and the Express backend (`node api/index.js`) on Port 5000 separately, provided you map the frontend API calls appropriately.)*
 
 ---
 
-## 🔐 Authentication Flow
+## 👨‍💻 Team
 
-- JWT-based authentication
-- Passwords securely hashed using bcryptjs
-- Admin-only protected routes
-
----
-
-## 📈 Future Improvements
-
-- Role-based access control
-- Live bus tracking
-- Mobile app integration
-- Dashboard analytics
-- Deployment with Docker
+| Member | Role |
+| ------ | ---- |
+| **Rohit Gupta** | Full Stack Developer |
+| **Kunal Kewat** | Backend Developer |
+| **Sandip Kumar Sah** | Frontend Developer |
+| **Nawsad Ansari** | UI Designer |
+| **Anmol Mishra** | Data Analyst |
+| **Priyanka Mondal** | Research Support |
 
 ---
 
-## 🤝 Contribution
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the ISC License.
-
----
-
-## 👨‍💻 Author
-
-Developed by _KIITGO Team_
-Built for academic and institutional use at KIIT University.
+*Built with ❤️ for KIIT University.*
