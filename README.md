@@ -63,7 +63,13 @@ npm install
 ```
 *(Note: Because the backend is configured serverless style for Vercel, backend dependencies like mongoose and express are kept in the root package.json).*
 
-### 3. Run the Development Server
+### 3. Setup Environment Variables
+Create a `.env` file in the root directory and add your secure MongoDB connection string:
+```env
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/kiitgo
+```
+
+### 4. Run the Development Server
 Since Vercel handles the API routing in production, to run the serverless function locally during development alongside React, you can use the Vercel CLI:
 ```bash
 npm i -g vercel
@@ -79,8 +85,8 @@ vercel dev
 | ------ | ---- |
 | **Rohit Gupta** | Full Stack Developer |
 | **Kunal Kewat** | Backend Developer |
-| **Sandip Kumar Sah** | Frontend Developer |
-| **Nawsad Ansari** | UI Designer |
+| **Sandip Kumar Sah** | Full Stack Developer [MERN Stack] |
+| **Nawsad Ansari** | UI/UX Designer |
 | **Anmol Mishra** | Data Analyst |
 | **Priyanka Mondal** | Research Support |
 
