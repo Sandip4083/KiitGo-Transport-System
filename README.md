@@ -2,6 +2,8 @@
 
 > A full-stack, responsive web application designed for students and faculty of KIIT University to easily find, track, and manage campus bus transportation. 
 
+🌍 **Live Demo:** [https://kiit-go-transport-system.vercel.app](https://kiit-go-transport-system.vercel.app/)
+
 ![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -9,8 +11,8 @@
 
 ## ✨ Key Features
 
-- **🚌 Bus Route Finder:** Search for buses using source and destination. Features include an autocomplete dropdown, a quick-swap button, and dynamic reverse-route generation.
-- **🔐 Role-Based Authentication:** Secure user and admin login/registration system with password validation and bcrypt hashing.
+- **🚌 Bus Route Finder:** Search for buses using source and destination. Features include an autocomplete dropdown, a quick-swap button, and dynamic reverse-route generation. The UI is **fully responsive** and optimized for both mobile and web devices.
+- **🔐 Role-Based Authentication:** Secure user and admin login/registration system with password validation and `bcrypt` hashing. Registration supports any valid email address for universal onboarding.
 - **📢 Live Complaint Box:** Users can submit transportation-related issues. The system features **real-time notifications** (polling) to alert users when the Admin resolves their complaint.
 - **📞 Contact Portal:** Direct messaging portal embedded with the KIIT University Google Maps location.
 - **👨‍💼 Dedicated Admin Dashboard:** Separate protected panel for admins to add/remove users, track/resolve complaints, and view contact submissions.
