@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import "./About.css"; // Move inline styles to About.css for better practice
 
 const About = () => {
@@ -137,6 +138,11 @@ const About = () => {
             <img src="/assets/team_pic/sandip.jpg" alt="Sandip Kumar Sah" />
             <h3>Sandip Kumar Sah</h3>
             <p>Full Stack Developer (MERN Stack)</p>
+            <div className="social-links">
+              <a href="https://github.com/Sandip4083" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+              <a href="https://linkedin.com/in/Sandip4083" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+              <a href="https://x.com/sandip4083" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+            </div>
           </div>
         </div>
       </section>
