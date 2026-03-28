@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaEye, FaEyeSlash, FaUser } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import kiitgoLogo from "./assets/KIITGO_logo.png";
 import "./Adminlogin.css";
 
@@ -121,6 +121,12 @@ function AdminLogin() {
         <button type="submit" className="btn">
           Login as Admin
         </button>
+
+        <div className="register-link" style={{ marginTop: "20px" }}>
+          <p>
+            Are you a student/faculty? <Link to="/">Login as User</Link>
+          </p>
+        </div>
       </form>
     </div>
   );
